@@ -1,0 +1,22 @@
+.table {
+  display: table;
+}
+.table-row {
+  display: table-row;
+}
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.left-padding-small {
+  padding-left: 10px;
+}
+.bottom-padding-medium {
+  padding-bottom: 30px;
+}
+.description > p {
+  display: table-cell;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
