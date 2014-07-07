@@ -3,16 +3,14 @@ Polymer('vote-element', {
   created: function() { console.log('created'); },
 
   ready: function() {
-    self = this;
+    var self = this;
 
     this.$.upArrow.addEventListener('click', function() {
       self.count++;
     });
 
     this.$.downArrow.addEventListener('click', function() {
-     if (count > 0) {
-        self.count--;
-      }
+      self.count--;
     });
   },
 
